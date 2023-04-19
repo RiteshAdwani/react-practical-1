@@ -1,5 +1,6 @@
 # react-practical-1
 - This is a React App built from scratch.
+- Live demonstration: [React from scratch](https://create-react-app-from-scratch.netlify.app/)
 
 **********
 
@@ -14,7 +15,7 @@
 **********
 
 ## Setting up React from scratch
-- In this setup, we've used Node js and npm to manage operations.
+- In this setup, we've used Node js and npm to manage operations. \
 **Step 1:**
 - Initialize the project using `npm init`.
 
