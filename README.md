@@ -15,39 +15,39 @@
 
 ## Setting up React from scratch
 - In this setup, we've used Node js and npm to manage operations.
-*Step 1:*
+**Step 1:**
 - Initialize the project using `npm init`.
 
-*Step 2:*
+**Step 2:**
 - Install react and react dom packages using `npm install react react-dom`.
 
-*Step 3:*
+**Step 3:**
 - Install Babel packages using `npm install @babel/core @babel/preset-env @babel/preset-react babel-loader`.
 - babel/core is the basic package.
 - preset-env allows to use modern JS and transpiles to older JS code.
 - preset-react allows taking JSX code and transpiles into vanilla React.
 - babel-loader is the intermediary package that connects babel to webpack.
 
-*Step 4:*
+**Step 4:**
 - Install webpack using `npm install webpack webpack-cli webpack-dev-server`.
 - webpack-dev-server allows to use webpack in a development environment.
 
-*Step 5:*
+**Step 5:**
 - Update "scripts" in `package.json`.
 - Here, we add `start` and `build` scripts.
 
-*Step 6:*
+**Step 6:**
 - Install html plugin using `npm install html-webpack-plugin`.
 - this basically finds the html file and automatically links the generated JS file.
 
-*Step 7:*
+**Step 7:**
 - Install CSS loader with the command `npm install style-loader css-loader`.
 
-*Step 8:*
+**Step 8:**
 - To be able to add images, use command `npm install --dev file-loader`.
 - We can add pngs,jpgs,gifs and svgs as well.
 
-*Step 9:*
+**Step 9:**
 - Add prettier using `npm install --save-dev --save-exact prettier`.
 - Set up "format" in scripts by adding `prettier --write` command.
 
